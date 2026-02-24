@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    container_name: automation
+    restart: unless-stopped
+    network_mode: host
